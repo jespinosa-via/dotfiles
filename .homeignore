@@ -1,0 +1,10 @@
+# Files and directories to exclude from dotfile sync
+# One pattern per line, following rsync exclude syntax
+# Comments start with #
+
+.git/
+bootstrap.sh
+bootstrap-user-specific.sh
+config-user-specific.yaml
+README.md
+.homeignore

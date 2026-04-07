@@ -1,0 +1,7 @@
+auto-clone:
+  # set base path to clone repositories into
+  base-dir: /home/coder/git-repositories
+  repositories: 
+    # Replace with your own repositories, one per line
+    # - https://github.com/viascience/template-helm
+    
