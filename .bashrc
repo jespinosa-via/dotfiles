@@ -10,5 +10,5 @@ source /etc/bash_completion
 
 # Import user-specific bash configurations and completions
 source ~/.bashrc-user-specific
-
+touch ~/.secrets
 source ~/.secrets
