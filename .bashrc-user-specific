@@ -1,1 +1,1 @@
-# the workspace .bashrc will source this file to add user specific configurations
+export UV_INDEX_VIA_SCIENCE_PASSWORD=""
