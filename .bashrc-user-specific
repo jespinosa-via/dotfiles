@@ -1,2 +1,8 @@
 export UV_INDEX_VIA_SCIENCE_PASSWORD=""
 eval "$(fnm env --use-on-cd --shell bash)"
+
+export CLICOLOR=1
+export LSCOLORS=Gxfxcxdxbxegedabagacad
+
+alias ls='ls --color=auto'
+alias k-='kubectl'
