@@ -1,1 +1,2 @@
 export UV_INDEX_VIA_SCIENCE_PASSWORD=""
+eval "$(fnm env --use-on-cd --shell bash)"
