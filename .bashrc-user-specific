@@ -6,3 +6,7 @@ export LSCOLORS=Gxfxcxdxbxegedabagacad
 
 alias ls='ls --color=auto'
 alias k='kubectl'
+alias venv="source .venv/bin/activate"
+alias govc="aws sso login --sso-session aws-govcloud"
+
+source ~/.secrets
