@@ -4,7 +4,7 @@
 # install tools
 brew update
 brew upgrade
-brew install kubectl argocd helm fnm
+brew install kubectl argocd helm fnm zsh-completions
 
 # set node env
 fnm install --lts
