@@ -4,7 +4,7 @@
 # install tools
 brew update
 brew upgrade
-brew install kubectl argocd helm fnm zsh
+brew install kubectl argocd helm fnm zsh aws
 
 # set zsh as default shell
 if ! grep -q "$(brew --prefix)/bin/zsh" /etc/shells; then

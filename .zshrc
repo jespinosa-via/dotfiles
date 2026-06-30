@@ -1,0 +1,22 @@
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+export UV_INDEX_VIA_SCIENCE_PASSWORD=""
+eval "$(fnm env --use-on-cd --shell zsh)"
+
+export CLICOLOR=1
+export LSCOLORS=Gxfxcxdxbxegedabagacad
+
+alias ls='ls --color=auto'
+alias k='kubectl'
+alias venv="source .venv/bin/activate"
+alias govc="aws sso login --sso-session aws-govcloud"
+
+# Homebrew zsh completions
+if type brew &>/dev/null; then
+  FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
+  autoload -Uz compinit
+  compinit
+fi
+
+touch ~/.secrets
+source ~/.secrets
